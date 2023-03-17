@@ -1,5 +1,5 @@
 import './App.css';
-import {Acceuil} from './components/Acceuil';
+import {Acceuil} from './pages/Acceuil';
 
 
 
