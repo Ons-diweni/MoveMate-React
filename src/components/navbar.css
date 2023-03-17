@@ -22,7 +22,7 @@ a{
 header{
     position: sticky;
     top: 0px;
-    background-color: #60b4df;
+    background-color: #7f6ed1;
     width: 100%;
     z-index: 1000;
 }
@@ -30,8 +30,8 @@ header{
 section{
     position: relative;
     height: calc(100vh - 3rem);
-    width: 100%;
-    background: url('../../public/images/logo.jpg') no-repeat top center / cover;
+    width: 150%;
+    background: url('../../public/images/logoo.jpg') no-repeat top center / cover;
     overflow: hidden;
 }
 
@@ -45,7 +45,7 @@ section{
 }
 
 .container{
-    max-width: 65rem;
+    max-width: 85rem;
     padding: 0 2rem;
     margin: 0 auto;
     display: flex;
@@ -218,6 +218,5 @@ section{
     opacity: 1;
     pointer-events: auto;
 }
-
 
 

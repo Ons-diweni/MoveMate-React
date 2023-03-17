@@ -1,9 +1,9 @@
 import './navbar.css'
 
 export const Navbar = () => { return (<div> 
+     
      <header>
         <div class="container">
-            <input type="checkbox" name="" id="check" />
             
             <div class="logo-container">
                 <h3 class="logo">Move<span>Mate</span></h3>
@@ -120,6 +120,9 @@ export const Navbar = () => { return (<div>
                         <li class="nav-link" style={{ "--i": "1.35s" }}>
                             <a href="#">About</a>
                         </li>
+                        <li class="nav-link" style={{ "--i": "1.35s" }}>
+                            <a href="#">Contact</a>
+                        </li>
                     </ul>
                 </div>
 
@@ -129,19 +132,13 @@ export const Navbar = () => { return (<div>
                 </div>
             </div>
 
-            <div class="hamburger-menu-container">
-                <div class="hamburger-menu">
-                    <div></div>
-                </div>
-            </div>
         </div>
-    </header>
-    <main>
+        </header>
+        <main>
         <section>
             <div class="overlay"></div>
         </section>
     </main>
-
     </div> 
     )}
 
