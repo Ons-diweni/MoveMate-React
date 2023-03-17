@@ -1,6 +1,6 @@
-import './navbar.css'
+import './Acceuil.css'
 
-export const Navbar = () => { return (<div> 
+export const Acceuil = () => { return (<div> 
      
      <header>
         <div class="container">
