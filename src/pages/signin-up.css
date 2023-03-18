@@ -154,4 +154,21 @@ a{color:inherit;text-decoration:none}
     position: relative;
     width: 100%;
   }
+
+
+  button {
+    padding: 10px 20px; /* Ajouter un padding pour donner de l'espace autour du texte */
+    background-color: #007bff; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    border: none; /* Enlever la bordure */
+    border-radius: 50px; /* Ajouter un arrondi aux coins */
+    font-size: 14px; /* Taille de police */
+    cursor: pointer; /* Changer le curseur lorsqu'on survole le bouton */
+    transition: background-color 0.2s ease-in-out; /* Ajouter une transition fluide lorsqu'on survole le bouton */
+    margin-left: auto;
+   
+  }
   
+  button:hover {
+    background-color: #0062cc; /* Couleur de fond sur survol */
+  }

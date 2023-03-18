@@ -1,10 +1,20 @@
+import { useNavigate } from 'react-router-dom';
 import './signin-up.css'
 export const Signinup = () => {
+
+const navigate = useNavigate()
+
+const handlehome = () => {navigate('/')}
+
+
+
     return (
        <div>
          <div class="container">          
             <div class="logo-container">
                 <h3 class="logo">Move<span>Mate</span></h3>
+                <br/>
+                <button  onClick={handlehome} > Back to Home </button>
             </div>
             
         </div>
