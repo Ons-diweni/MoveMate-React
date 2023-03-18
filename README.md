@@ -8,3 +8,4 @@
 
 • $\ \ \textcolor{DarkGoldenRod}{npm \ install \ ou \ npm \ i  }$ :  installer toutes les dépendances requises pour le projet React.  
 • $\ \ \textcolor{DarkGoldenRod}{npm \ start }$ :  lancer l'application React en mode développement - démarrer un serveur local qui recompile l'application à chaque modification
+
