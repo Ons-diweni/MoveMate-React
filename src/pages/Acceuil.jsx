@@ -1,6 +1,20 @@
-import './Acceuil.css'
+import './acceuil.css'
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
-export const Acceuil = () => { return (<div> 
+
+
+export const Acceuil = () => { 
+    
+  
+    const navigate = useNavigate()
+   
+
+    function handleConnexion() {
+        navigate('/login');
+    }
+    
+    return (<div> 
      
      <header>
         <div class="container">
@@ -127,8 +141,8 @@ export const Acceuil = () => { return (<div>
                 </div>
 
                 <div class="log-sign" style={{ "--i": "1.8s" }}>
-                    <a href="#" class="btn transparent">Log in</a>
-                    <a href="#" class="btn solid">Sign up</a>
+                    <a href="#" class="btn transparent"  onClick={handleConnexion}  >Connexion</a>
+                {/*     <a href="#" class="btn solid">Connexion</a> */}
                 </div>
             </div>
 
@@ -141,4 +155,3 @@ export const Acceuil = () => { return (<div>
     </main>
     </div> 
     )}
-
