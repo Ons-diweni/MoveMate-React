@@ -54,7 +54,7 @@ const handlehome = () => {navigate('/')}
                   <input id="pass" type="password" className="input" data-type="password" />
                 </div>
                 <div className="group">
-                  <label htmlFor="pass" className="label">Repeat Password</label>
+                  <label htmlFor="pass" className="label">Confirm Password</label>
                   <input id="pass" type="password" className="input" data-type="password" />
                 </div>
                 <div className="group">
