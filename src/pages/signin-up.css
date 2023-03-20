@@ -172,3 +172,11 @@ a{color:inherit;text-decoration:none}
   button:hover {
     background-color: #0062cc; /* Couleur de fond sur survol */
   }
+
+   .error-message {
+    color: red;
+    font-size: 14px;
+  }
+  .error-container {
+    margin-top: 5px;
+  }
