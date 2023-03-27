@@ -5,14 +5,18 @@ import {useForm  } from "react-hook-form"
 import {yupResolver} from '@hookform/resolvers/yup'
 import * as Yup from 'yup';
 
+
 //****************************************************************************************/
 
 export const Signinup = () => {
+
+useEffect(()=>{console.log(window.location)}, [])
 
 const navigate = useNavigate()
 const Redirecthome = () => {navigate('/')}
 
 
+//************************************* Sign In ******************************************************/
 //schema signin validation 
 const signupSchema  = Yup.object().shape({
 
@@ -31,7 +35,7 @@ const {register: registerup, handleSubmit : handleSubmitup , formState : {errors
 const onSubmitUp = (data) => { console.log(data)}
 
 
-//*******************************************************************************************/
+//************************************* Sign Up ******************************************************/
 
 const signinSchema  = Yup.object().shape({
 
@@ -43,9 +47,9 @@ const signinSchema  = Yup.object().shape({
 //errors is an object contains each of the fields in the form and their errors
 const { register: registerin, handleSubmit: handleSubmitin ,formState : {errors: errorsin }} = useForm({resolver : yupResolver(signinSchema)});
 
-const onSubmitIn = (data) => { console.log(data)}
+const onSubmitIn = (data) => { console.log(data)
 
-
+}
 
 //********************************************************************************************/
 
